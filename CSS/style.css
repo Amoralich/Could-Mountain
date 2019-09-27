@@ -1,5 +1,5 @@
 :root{
-    --dark-background: #000000;
+    --dark-background: rgb(106, 117, 170);
     --border-color: #757575;
 }
 
@@ -8,7 +8,49 @@ html{
 }
 
 .main-container{
+    position: relative;
     height: 800px;
     width: 800px;
-    border: 2px solid var(--border-color);
+    border: 5px solid var(--border-color);
+    border-radius: 5%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+img{
+    position: absolute;
+}
+
+.mountain{
+   bottom: 20%;
+   right: 10%;
+}
+
+.cloud1{
+    right: 1%;
+    top: 15%;
+}
+.cloud2{
+    right: 20%;
+    top: 30%;
+}
+.cloud3{
+    right: 40%;
+    top: 20%;
+}
+.cloud4{
+    right: 60%;
+}
+.cloud5{
+    right: 80%;
+    top: 15%;
+}
+span{
+    position: absolute;
+    right: 25%;
+    bottom: 3%;
 }
